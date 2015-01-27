@@ -1,0 +1,21 @@
+<div class="commentsTemplate">
+    <div class="userInfo">
+       <a href="http://buzzfeed" class="icon user"></a>
+       <div class="userInfoSection">
+          <a class="userIcon">
+             
+          </a>
+          <a class="userName" href="http://buzzfeed.com"><%= test.comments[3].user_info.display_name %></a><br>
+          
+          <span data-livestamp= <%= test.comments[3].added %> class="addedDate"></span>
+          
+       </div>
+    </div>
+    <div class="userComment"><%= test.comments[3].blurb %></div><br>
+    
+    <div class="socialIcons">
+       <span class="loveHateCounts"><%= test.comments[3].love_count %><a class="loveIcon"></a></span>
+       <span class="loveHateCounts"><%= test.comments[3].hate_count %><a class="hateIcon"></a></span>
+       
+    </div>
+</div>

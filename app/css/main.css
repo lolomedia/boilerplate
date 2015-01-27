@@ -1,0 +1,72 @@
+#BFComments{
+  padding-top: 30px
+}
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.commentsTemplate{
+  background: #E7E7E7;
+  padding: 8px;
+  width: 600px;
+  margin-bottom: 2px;
+}
+.userInfoSection {
+  display: inline-block;
+  position: relative;
+  width: 605px;
+  line-height: 1.0em;
+  min-height: 40px
+}
+.userName{
+  font-size: 12px;
+  text-decoration: none;
+  color: #07e;
+  float: left;
+}
+.userComment{
+  font-size: 16px;
+}
+.loveHateCounts{
+  float:left;
+  font-size: 10px;
+}
+.socialIcons{
+  display: inline-block;
+}
+.loveIcon {
+  background: url("../imgs/love_small.png") center 0px no-repeat;
+  width: 25px;
+  height: 25px;
+  float:left;
+}
+.hateIcon {
+  background: url("../imgs/hate_small.png") center 0px no-repeat;
+  width: 25px;
+  height: 25px;
+  float:left;
+}
+.userIcon {
+  background: url("../imgs/userIcon.jpg") center 0px no-repeat;
+  width: 25px;
+  height: 25px;
+  float:left;
+  margin-right: 5px;
+}
+.addedDate{
+  display: inline;
+  font-size: 10px;
+}
+
+#loadMoreButton {
+  margin: 5px;
+  padding: 5px 13px;
+  font-size: 15px;
+  line-height: 2;
+  font-weight: bold;
+  font-family: arial, helvetica, verdana, sans-serif;
+}
+
